@@ -55,7 +55,7 @@ class Configuration
         $this->authentication = $authentication;
         $this->apiUrl = self::DEFAULT_API_URL;
         $this->apiVersion = self::DEFAULT_API_VERSION;
-        $this->caBundle = __DIR__.'/../etc/ca-coinbase.crt';
+        $this->caBundle = __DIR__.'/../etc/cacert.pem';
     }
 
     /** @return HttpClient */
